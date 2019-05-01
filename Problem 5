@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int number = 1;
+	
+	cout << "Estimating \n";
+	for(int i =1; i<=20; i++){
+		
+		if (number>=10){
+			cout << number << ", ";
+			number = number +2;
+		}else{
+		cout << number << ", ";
+		number++;
+		}
+	}
+	_getch ();
+	return 0;
+}
