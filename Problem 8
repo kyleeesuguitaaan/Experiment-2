@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	int num;
+	
+	cout << "Please choose a number (1 - 10) - ";
+	cin >> num;
+	cout << "\n";
+	
+	for (int i = 1; i<=10; i++){
+		cout << num << " x " << i << " = " << (num*i);
+		cout << "\n";
+	}
+}
